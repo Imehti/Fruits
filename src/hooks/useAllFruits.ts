@@ -1,6 +1,10 @@
 import { useQuery } from "@tanstack/react-query";
 import apiClient from "../services/api-client";
 
+export interface Data{
+    name:string
+}
+
 
 const useAllFruits = () =>
     useQuery({
