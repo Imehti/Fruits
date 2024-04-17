@@ -11,6 +11,7 @@ const useAllFruits = () =>
         queryKey:['all'],
         queryFn:()=>apiClient.get('').then(res=>res.data)
     })
+    
 
 
 export default useAllFruits
